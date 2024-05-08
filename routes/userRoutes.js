@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const User = require('./models/User');
+const User = require('../models/User');
 
 // Ruta pentru înregistrarea unui utilizator
 router.post('/register', async (req, res) => {
